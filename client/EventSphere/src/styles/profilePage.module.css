@@ -1,0 +1,8 @@
+.page {
+    display: flex;
+    flex-direction: column; /* Важное отличие! */
+    width: 100%;
+    justify-content: flex-start;
+
+    gap: 32px;
+}

@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E98888;
+    font-family: KaushanScript, sans-serif;
+    padding: 16px;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 72px;
+    right: 24px;
+    width: 180px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 12px 0;
+    z-index: 10;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.item {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #333;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.item:hover {
+    background-color: #E98888;
+    color: white;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

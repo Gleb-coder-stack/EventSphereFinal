@@ -1,0 +1,45 @@
+
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #FAE0E0;
+
+}
+
+.secondFactorContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAE0E0;
+    border: 1px solid black;
+    width: 30vw;
+    gap: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formNewPassword {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.inputAdnLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

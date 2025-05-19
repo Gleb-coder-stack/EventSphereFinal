@@ -1,0 +1,51 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    padding: 10px;
+    gap: 10px;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.titleContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filtersContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    width: 20%;
+    background-color: #FAE0E0;
+
+}
+
+.eventsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+
+}

@@ -1,0 +1,9 @@
+.myInput {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.myInput:invalid {
+    border: 2px solid red;
+}

@@ -1,0 +1,17 @@
+.customRedBtn {
+    padding: 5px 15px;
+    color: black;
+    font-size: 16px;
+    background: #A1F5FE;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.customRedBtn:hover {
+    background-color: lightskyblue;
+    color: white;
+    box-shadow: #FFFFFF 1px 1px 1px;
+    transform: scale(1.1);
+}

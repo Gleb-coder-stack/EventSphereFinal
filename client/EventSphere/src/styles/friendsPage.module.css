@@ -1,0 +1,23 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    gap: 10px;
+    margin: 10px;
+}
+
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}

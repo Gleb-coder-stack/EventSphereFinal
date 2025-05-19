@@ -1,0 +1,53 @@
+.page{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainData{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1vw;
+}
+
+.organizerAndStatus{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mediaContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.otherData{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.tagsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+}

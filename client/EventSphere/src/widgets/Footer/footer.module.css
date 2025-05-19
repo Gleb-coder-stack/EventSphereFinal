@@ -1,0 +1,17 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E98888;
+}
+
+.title{
+    font-family: KaushanScript, sans-serif;
+}
+
+.otherText{
+    font-family: InriaSans, sans-serif;
+}
